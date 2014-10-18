@@ -3,7 +3,7 @@ __author__ = 'Keyur Patel'
 __Purpose__ = This Memcache wrapper is designed to work close with google memcache with more developer's custom way.
 It has two classes BaseClass (MemCache_Wrapper) and DerivedClass (Etags_Wrapper).
 MemCache_Wrapper - Contains custom memchace methods.
-Etags_Wrapper - This derived class generates the md5 hash etags and does logic of returning 304 or cache data.
+Etags_Wrapper - This derived class generates the md5 hash etags and does logic of returning 304 status or cache data.
 """
 
 import datetime
